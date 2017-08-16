@@ -15,6 +15,6 @@ export class HomePage {
     this.flashlight.toggle();
   }
   flashBlink(){
-    setInterval(this.flashOn(), 300);
+    setInterval(this.flashlight.toggle(), 300);
   }
 }
